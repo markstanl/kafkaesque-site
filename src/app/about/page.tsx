@@ -14,7 +14,7 @@ const Page = () => {
                 image that matches your vibe! I also plan to eventually add a ML Kafkaesque image classifier, but to
                 not bite off more than I can chew, I will stick to this for now.
             </p>
-            <h2 className={'text-2xl m-4'}>The Technical Details</h2>
+            <h2 className={'text-2xl m-4'}>The Technical Details <a href={'https://github.com/markstanl/kafkaesque-site'}>GitHub Repo</a></h2>
             <p>
                 The beautiful frontend page was made using NextJS, TypeScript, and TailwindCSS, and the logo was
                 generated with Stable Diffusion 3.5. The fonts come from Google Fonts, and the images are collected from

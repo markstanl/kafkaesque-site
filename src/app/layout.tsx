@@ -1,7 +1,6 @@
 import type {Metadata} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import {App} from 'konsta/react';
 
 import Navbar from "@/components/Navbar";
 

@@ -1,3 +1,9 @@
+# Kafkaesque Website
+
+This is the frontend for my Kafka and the Kafkaesque final project. It is a Next.js project that uses the Geist UI framework. The website is hosted on Vercel and can be found [here](https://kafkaesque.vercel.app/).
+
+
+# Next.js Default Text
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
