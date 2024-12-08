@@ -57,9 +57,10 @@ const Page = () => {
                 </div>
                 :
                 <div className={'w-full flex flex-col items-center'}>
-                   <video width={400} controls>
-                          <source src={'/10.mp4'} type={'video/mp4'}/>
-                   </video>
+                    <video width={400} controls>
+                        <source src="/api/video" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             }
         </App>
