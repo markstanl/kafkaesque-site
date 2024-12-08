@@ -28,7 +28,7 @@ const Page = () => {
 
     return (
         <App theme={'material'} className={'flex flex-col items-center'}>
-            <div className={`w-screen flex flex-col items-center ${frijole.className} mt-10 text-2xl`}>
+            <div className={`flex flex-col items-center ${frijole.className} mt-10 text-2xl`}>
                 <h1>How are you feeling today?</h1>
             </div>
             <Block strongIos outlineIos className="space-y-4 w-5/6">
