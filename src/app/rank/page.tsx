@@ -57,10 +57,13 @@ const Page = () => {
                 </div>
                 :
                 <div className={'w-full flex flex-col items-center'}>
-                    <video width={400} controls>
-                        <source src="/api/video" type="video/mp4"/>
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe
+                        src="https://utfs.io/f/gUHmJu7G7hAo2KyNsbBVK5U78NZcEdfRDjAWYtSke9PxJ40w"
+                        width="400"
+                        height="300"
+                        allow="autoplay; fullscreen"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             }
         </App>
